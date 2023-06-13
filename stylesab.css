@@ -1,0 +1,59 @@
+@font-face{font-family:ButterCup;
+src:url(ButterCup.otf);}
+
+@font-face{font-family:Aesthetic-Regular;
+src:url(Aesthetic-Regular.ttf);}
+
+@font-face{font-family:UnitedKings_PERSONAL_USE_ONLY;
+src:url(UnitedKings_PERSONAL_USE_ONLY.otf);}
+
+body {
+    background: #1a0321;
+}
+
+h1{
+    background-image: radial-gradient(circle at top center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 800%);
+    color:white;
+    font-size:100px;
+    font-family:ButterCup;
+    text-align:center;
+    border:5px ;
+    border-radius: 12px;
+    padding: 20px;
+    font-weight: 1;
+    }
+
+
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+
+
+}
+
+@media(max-width: 600px){
+    .column{
+        flex:100%;
+    }
+}
+
+.imagen1 {
+    width: 300px;
+    height: 200px;
+  }
+
+.imagen2 {
+    width: 300px;
+    height: 200px;
+  }
+
+.imagen3 {
+    width: 300px;
+    height: 200px;
+  }
+
